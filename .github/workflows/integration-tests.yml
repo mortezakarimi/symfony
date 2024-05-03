@@ -61,7 +61,7 @@ jobs:
         env:
           STANDALONE: 1
       redis-sentinel:
-        image: bitnami/redis-sentinel:6.2.8
+        image: bitnami/redis-sentinel:6.2.14
         ports:
           - 26379:26379
         env:
