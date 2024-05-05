@@ -45,7 +45,7 @@ jobs:
           LDAP_USERS: a
           LDAP_PASSWORDS: a
       redis:
-        image: redis:6.2.8
+        image: redis:6.2.14
         ports:
           - 16379:6379
       redis-cluster:
