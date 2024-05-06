@@ -81,7 +81,7 @@ jobs:
         ports:
           - 27017:27017
       couchbase:
-        image: couchbase:6.5.1
+        image: couchbase:6.6.6
         ports:
           - 8091:8091
           - 8092:8092
